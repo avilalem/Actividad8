@@ -4,9 +4,7 @@ def factorial(n):
     else:
         print(n)
         return n*factorial(n-1)
-n=int(input("Ingrese un numero: "))
-factorial(n)
-print(f"El factorial es: {factorial(n)}")
+
 #########
 
 def potencia(base, exponente):
